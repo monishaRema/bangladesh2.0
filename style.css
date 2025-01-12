@@ -54,12 +54,13 @@ a, button{
 /************** Header section*********** */
 
 .header{
-    padding-inline:20px;
+    /* padding-inline:20px; */
 }
 
 .container{
-    max-width: 1280px;
+    max-width: 1320px;
     margin-inline:auto;
+    padding-inline: 20px;
 }
 .nav{
     padding-block:24px;
@@ -412,9 +413,14 @@ td.table-option select{
 .amount-box:hover{
     background-color: var(--primary-color);
 }
+
+.other-amount-container{
+    max-width: 1032px;
+    margin-inline: auto;
+}
 .custom-amount{
     display: block;
-    width: 1032px;
+    width: 100%;
     margin-inline:auto;
     margin-bottom: 32px;
     padding: 20px;
